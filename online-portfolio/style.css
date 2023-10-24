@@ -1,3 +1,43 @@
+/*
+font-family: 'Libre Bodoni', serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+@media {
+    
+
+#topper {
+
+}
+
+h1 {
+    font-family: 'Libre Bodoni', serif;
+    font-size:50px;
+}
+
 img {
     width:100%;
+    margin:20px 0px 20px 0px;
+}
+
+#footer {
+    position:fixed;
+    bottom:0px;
+    background-color:black;
+    color:white;
+}
+
+    
+}
+
+@media (min-width:576px) {
+    
+#topper {
+    background-color:lightcoral;
+}
+
+h1 {
+    font-size:100px;
+}
+    
 }
