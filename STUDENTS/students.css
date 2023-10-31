@@ -1,6 +1,109 @@
-body {
-    text-align:center;
-    margin-top:40%;
-    color:gold;
-    background-color:black;
+
+img {
+width:60%; 
+margin:50px 0px 50px 0px;
+border-radius: 1000px;
+border: 10px solid #343C24;
+padding: 10px 20px 10px 20px; 
 }
+
+#body {
+    margin:0px 0px 100px 0px;
+    
+    }
+
+data coder{
+  padding-top: 50px;  
+       
+}
+
+}
+
+
+.nav a {
+    font-family:montserrat, sans-serif;
+    color:black;
+
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    color:black;
+    }
+    
+
+.nav-item:hover {
+    background-color: azure;
+        
+    }
+    
+.nav {
+    
+        background-color:blanchedalmond;
+        height: 40px;
+        width: 100%;
+        justify-content: center;
+        padding: 50px 20px 50px 20px;
+        border-radius: 50px;
+        font-family: "Playfair Display; serif"
+
+    }
+
+
+h1 {
+    font-family: "Playfair Display; serif";
+    color:aqua;
+    font-size: 20px;
+
+        
+}
+
+h2 {
+    font-family: "Playfair Display; serif";
+    color:aqua;
+    font-size: 20px;
+          
+}
+
+h3 {
+    
+   font-family: "Playfair Display; serif";
+    color:aqua;
+    font-size: 20px;
+    
+}
+
+
+#topper {
+    height:580px;
+    background-color:#966144;
+    
+}
+
+p {
+    margin:0px 200px 0px 200px;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    font-family: 'Frank Ruhl Libre', serif;
+    
+}
+    
+#footer {
+    background-color: aquamarine;
+    height: 100px;
+    bottom:0px;
+    background-color:black;
+    color:white;   
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+
+
+    
+    
+    
+
+    
+    
