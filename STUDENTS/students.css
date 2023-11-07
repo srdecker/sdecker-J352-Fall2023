@@ -1,109 +1,154 @@
+@media {
+    
+html {
+    background-color:#A3AAB5;
+}
 
 img {
-width:60%; 
-margin:50px 0px 50px 0px;
-border-radius: 1000px;
-border: 10px solid #343C24;
-padding: 10px 20px 10px 20px; 
+    width:100%;
+    border-radius:500px;
+    border: 5px solid #2C2B28;
 }
 
 #body {
-    margin:0px 0px 100px 0px;
-    
-    }
-
-data coder{
-  padding-top: 50px;  
-       
+    background-color:#D3D2D9;
+    margin: 0px 0px 50px 0px;
 }
-
-}
-
 
 .nav a {
-    font-family:montserrat, sans-serif;
-    color:black;
-
+    background-color:#6B6B67;
+    text-transform: uppercase;
+    font-family: 'Gabarito', sans-serif;
+    color: black;
+}
+    
+#nav {
+        background-color:#6B6B67; 
+}
+    
+#nav a:hover{
+    text-transform: uppercase;
+    font-family: 'Gabarito', sans-serif;
+    color:white
 }
 
-.nav a:hover {
-    text-decoration: underline;
-    color:black;
-    }
-    
-
-.nav-item:hover {
-    background-color: azure;
-        
-    }
-    
-.nav {
-    
-        background-color:blanchedalmond;
-        height: 40px;
-        width: 100%;
-        justify-content: center;
-        padding: 50px 20px 50px 20px;
-        border-radius: 50px;
-        font-family: "Playfair Display; serif"
-
-    }
-
-
-h1 {
-    font-family: "Playfair Display; serif";
-    color:aqua;
-    font-size: 20px;
-
-        
+#Experience {
+    text-transform: uppercase;
+    font-family: 'Gabarito', sans-serif;
+    padding: 15px 0px 0px 0px;
 }
 
-h2 {
-    font-family: "Playfair Display; serif";
-    color:aqua;
-    font-size: 20px;
-          
+#Education {
+    text-transform: uppercase;
+    font-family: 'Gabarito', sans-serif;
 }
 
-h3 {
+#Skills {
+    text-transform: uppercase;
+    font-family: 'Gabarito', sans-serif;
+}
     
-   font-family: "Playfair Display; serif";
-    color:aqua;
-    font-size: 20px;
-    
+#skillrow {
+    padding: 0px 0px 0px 20px    
 }
 
 
 #topper {
-    height:580px;
-    background-color:#966144;
-    
+    background-color:#A3AAB5;
+    padding: 10px 10px 10px 10px;
 }
 
-p {
-    margin:0px 200px 0px 200px;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
-    font-family: 'Frank Ruhl Libre', serif;
-    
-}
-    
-#footer {
-    background-color: aquamarine;
-    height: 100px;
-    bottom:0px;
-    background-color:black;
-    color:white;   
+#button {
+    background-color:#E0DAD2;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 25px 35px 25px 35px;
+    margin: 10px;
+    letter-spacing: 1px;
+    font-family: 'Gabarito', sans-serif;
     text-align: center;
-    padding-top: 30px;
-    
 }
 
+#button:hover {
+    background-color: #919191;
+}
 
+h1 {
+    text-transform: uppercase;
+    font-family: 'Gabarito', sans-serif;
+    font-weight:700;
+    font-size: 65px;
+    text-align: center
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: 25px;
+}
+    
+h4 {
+    text-transform: uppercase;
+    font-family: 'Gabarito', sans-serif;
+    font-weight: 400;
+    line-height: 25px
+}
 
     
-    
-    
+.section-header {
+    border-bottom: 1px solid black;    
+}
 
-    
-    
+#footer {
+    background-color:#A3AAB5;
+    padding: 10px;
+    font-family: 'Libre Baskerville', serif;
+    position:fixed;
+    bottom: 0px;
+}
+
+}
+
+/*Medium*/
+@media (min-width:768px) {
+    h1 {
+        font-size: 75px;
+    }
+    h2 {
+        font-size: 35px; 
+    }
+    button {
+        font-size: 20px;
+    }
+            
+}
+
+/*Large*/
+@media (min-width:992px) {
+    h1 {
+        font-size: 100px;
+    }
+    h2 {
+        font-size: 45px; 
+    }
+    button {
+        font-size: 30px;
+    }
+            
+}
+
+/*Extra large*/
+@media (min-width:1200px) {
+    h1 {
+        font-size: 125px;
+    }
+    h2 {
+        font-size: 55px; 
+    }
+    button {
+        font-size: 40px;
+    }
+        
+}
