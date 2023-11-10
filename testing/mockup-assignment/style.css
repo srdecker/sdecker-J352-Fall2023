@@ -1,0 +1,50 @@
+body {
+     margin:0px 0px 40px 0px;
+}
+
+#topper {
+    height:380px;
+    background-color:#152616;
+}
+
+img {
+    width:325px;
+    border-radius:500px;
+    float:left;
+    margin:0px 0px 0px 200px;
+    border:5px solid #AA6A41;
+}
+
+h1 {
+    margin:0px 200px 0px 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    margin:0px 200px 0px 0px;
+}
+
+h3 {
+    margin:0px 200px 0px 200px;
+}
+
+p {
+    margin:0px 200px 0px 200px;
+
+}
+
+button {
+    background-color:#AA6A41;
+    border:none;
+    color:white;
+    border-radius:10px;
+    padding:10px 20px 10px 20px;
+}
+
+button:hover {
+    background-color:#152616;
+}
+
+#button-container {
+    text-align:center;
+}

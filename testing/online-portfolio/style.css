@@ -1,0 +1,84 @@
+/*
+font-family: 'Libre Bodoni', serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+@media {
+    
+
+#topper {
+
+}
+
+#body {
+    margin:0px 0px 100px 0px;
+    }
+    
+.centered {
+        text-align:center;
+    }
+    
+.nav a {
+    font-family:montserrat, sans-serif;
+    color:black;
+    text-align:center;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    color:black;
+    }
+    
+.nav-item:hover {
+    background-color:aqua;
+        
+    }
+    
+.nav {
+        justify-content:center;
+
+    }
+    
+
+h1 {
+    font-family: 'Libre Bodoni', serif;
+    font-size:50px;
+}
+
+img {
+    width:100%;
+    margin:20px 0px 20px 0px;
+    border-radius: 500px;
+}
+    
+
+#footer {
+    position:fixed;
+    bottom:0px;
+    background-color:black;
+    color:white;
+    
+    }
+    
+    .section-header {
+        background-color:aquamarine;
+        border-bottom: 10px solid black;
+    }
+    
+    h3 {
+            font-family: 'Libre Bodoni', serif;
+    }
+    
+}
+
+@media (min-width:576px) {
+    
+#topper {
+    background-color:lightcoral;
+}
+
+h1 {
+    font-size:100px;
+}
+    
+}
