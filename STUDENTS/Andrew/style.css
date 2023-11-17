@@ -1,0 +1,44 @@
+/*This is your CSS file.*/
+@media{
+
+body{
+    font-family:Georgia, serif;
+}
+
+#article{
+    width:70%;
+    margin:auto;
+}
+
+h1{
+    font-size:50px;
+}
+
+#date{
+    color:gray;
+    font-size:25px;
+}
+
+#byline{
+    font-weight:bold;
+}
+
+img{
+    width:100%;
+}
+    
+#footer{
+    width:100%;
+    background-color:blue;
+    color:white;
+    text-align:left;
+    justify-items:baseline;
+}
+    
+}
+
+@media (min-width:576px){
+    h1{
+        font-size:80px;
+    }
+}

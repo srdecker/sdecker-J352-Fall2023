@@ -1,0 +1,45 @@
+@media{ 
+body{ 
+font-family:serif;
+
+}
+#article{
+    width:70%;
+    margin:auto;
+}
+
+h1{
+    font-size: 50px;
+}
+
+#date{
+    color: gray;
+    font-size: 13px;
+}
+
+#byline {
+    font-weight:700;
+}
+
+img{
+    width:100%;
+}
+    #footer{
+        width:100%;
+        background-color:aquamarine;
+        color:black;
+        position:fixed;
+        bottom: 0px;
+        left: 0px;
+    }
+
+}
+
+@media(min-width:576px) {
+    
+    h1{
+        font-size: 80px;
+        
+    }
+    
+}

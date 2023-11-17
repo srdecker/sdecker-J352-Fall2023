@@ -1,0 +1,46 @@
+
+@media{
+body{
+font-family:Georgia, serif;
+    
+}
+#article{
+width:70%;
+margin:auto;
+}
+#h1{
+font-size:50px; 
+}
+
+#date{
+color:gray;
+}
+
+
+#byline{
+color:black; 
+font-weight:bold; 
+}
+
+img{
+width:100%;}
+
+p{
+font-weight:normal;
+}
+
+    #footer{
+width:100%;
+bottom:0;
+position:fixed; 
+background-color: aquamarine;
+color:darkgreen;}
+
+}
+
+@media(min-width:576){
+    h1{
+ width:80px;}
+
+     }
+

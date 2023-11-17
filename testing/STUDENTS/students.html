@@ -1,192 +1,604 @@
-<!DOCTYPE html>
+        <!DOCTYPE html>
 <html lang="en">
-    
 <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrinkt-to-fit=no">
-    
-    <title>Bootstrap Template</title>
-    <!-- Bootstrap CSS and JavaScript -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    
-    <link href="style.css" rel="stylesheet">
-
-    
-    
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">  
+<style type="text/css" data-premailer="ignore">
+/* CLIENT-SPECIFIC STYLES */
+#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+body, table, td, a{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+/* RESET STYLES */
+body { margin: 0px auto; padding: 0px auto; -webkit-text-size-adjust: 100% !important; -ms-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; }
+img { border: 0 !important; outline: none !important; }
+p { Margin: 0px !important; Padding: 0px !important; }
+table { border-collapse: collapse; mso-table-lspace: 0px; mso-table-rspace: 0px; }
+td, a, span { border-collapse: collapse; mso-line-height-rule: exactly; }
+.ExternalClass * { line-height: 100%; }
+a[x-apple-data-detectors], u + .em_body a, #MessageViewBody 
+a { font-size: inherit; font-family: inherit; font-weight: inherit; line-height: inherit; }
+@media only screen and (max-width:599px) {
+.em_main_table { width: 100% !important; }
+.responsive-table { width: 100% !important; padding: 0px 15px !important; } 
+.em_wrapper { width: 100% !important; }
+.em_hide { display: none !important; }
+.em_full_img img { width: 100% !important; height: auto !important; }
+.em_mobile_img img { width: 30% !important; height: auto !important; }
+.em_center { text-align: center !important; }
+.em_side10 { width: 10px !important; }
+.em_aside14 { padding: 15px 15px 5px 15px !important; }
+.em_aside15 { padding: 5px 15px 5px 15px !important; }
+.em_ptop { padding-top: 20px !important; }
+u + .em_body .em_full_wrap { width: 100% !important; width: 100vw !important; }
+.em_p { padding: 0px !important; }
+.em_w { width: 100px !important; }
+}
+@media screen and (max-width: 480px) {
+.em_f16 { font-size: 16px !important; line-height: 20px !important; }
+.em_f30 { font-size: 32px !important; line-height: 35px !important; }
+}
+</style>
 </head>
-
-<body>
-    
-<div class="container-fluid" id="topper">
-    
-    <div class="row">
-        
-        <div class="col-sm-8">
-            <h1>Matthew Watson</h1>
-            <h2>Student Journalist and Photographer</h2>
-            
-        </div>
-        
-        <div class="col-sm-4" id="photo">
-            <img src="watson_headshot_square.png" alt="Matthew Watson Headshot" id="headshot">
-        </div>
-    
-    </div>
-    
-    <div class="row text-center">
-    <a href="mailto:mwatso84@umd.edu">
-                <button id="button">Contact Me</button>
-            </a>
-    </div>
-
-</div>
-    
-<div class="container-fluid" id="body">
-    
-    <div class="row" id="nav">
-        
-        <!--Navigation goes here--> 
-        <!-- Horizontal Nav Start-->
-<ul class="nav justify-content-center">
-  <li class="nav-item">
-    <a class="nav-link" href="#experience">Experience</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#education">Education</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#skills">Skills</a>
-  </li>
+<body class="em_body" style="margin: 0px auto; padding: 0px;" bgcolor="#ffffff">
+<!--header-->
+<table class="em_full_wrap" style="table-layout: fixed;" border="0" width="100%" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+<tbody>
+<tr>
+<td align="center" valign="top">
+<table class="em_main_table" style="width: 600px; table-layout: fixed;" border="0" width="600" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff">
+<tbody>
+<tr>
+<td style="padding-bottom: 20px;" align="center" valign="top">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td style="height: 1px; line-height: 0px; font-size: 0px;" bgcolor="#e0e5e6" height="1">
+<img style="display: block;" src="https://uploads.goodbits.io/uploads/static_image/image/133/spacer.gif" alt=" " width="1" height="1" border="0">
+</td>
+</tr>
+<tr>
+</tr>
+<tr>
+<td style="font-family: Arial, sans-serif; font-size: 9px; line-height: 15px; color: #808080; padding-top: 10px;" align="center" valign="top">ADVERTISEMENT</td>
+</tr>
+<tr>
+<td class="em_full_img em_pbottom" style="padding: 10px 0px 0px;" align="center" valign="top"><a href="https://www.learningandthebrain.com/conference-514/teaching-engaged-brains/" target="_blank"><img style="font-family: Arial, sans-serif; font-size: 15px; color: #000000; line-height: 18px; display: block; max-width: 600px;" src="https://uploads.goodbits.io/uploads/content_block/image/894633/d7536e05-8922-479e-beed-d91112554fd6.jpg" alt="Advertisement" width="600" height="150" border="0"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--header--><table width="100%" border="0" cellspacing="0" cellpadding="0" class="em_full_wrap" bgcolor="#bf062f" style="">
+ <tr>
+ <td align="center" valign="top" style="" bgcolor="#0626a9">
+ <table align="center" width="600" border="0" cellspacing="0" cellpadding="0" class="em_main_table">
+ <tr>
+ <td align="center" valign="top" class="em_aside15">
+ <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+ <tr>
+ <td align="center" valign="top">
+ <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr>
+<td align="center" valign="top" style="font-family: Arial, sans-serif; font-size: 9px; line-height: 16px; color: #FFFFFF; padding: 10px 0px 15px;">
+YOUR DAILY EDUCATION NEWS AND INSIGHT — <b>November 14, 2023</b>
+ </td>
+ </tr>
+ <tr>
+ <td align="center" valign="top" class="em_mobile_img">
+ <a href="https://www.edweek.org/?utm_source=nl&utm_medium=eml&utm_campaign=eu&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}&T={{templateId}}">
+ <img src="https://uploads.goodbits.io/uploads/static_image/image/430/Education-Week-logo-primary-R-reverse-175px-wide__1_.png" width="175" height="23" alt="Education Week" style="display: block; max-width: 527px;" border="0"></a>
+</td>
+ </tr>
+<tr>
+<td align="center" valign="top" class="em_f30" style="font-family: Arial, sans-serif; font-size: 45px; line-height: 48px; color: #FFFFFF; padding: 10px 0px 15px;">
+EdWeek Update 
+</td>
+</tr>
+ </table>
+</td>
+ </tr>
+ </table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--lead-article-->
+<table class="em_full_wrap" border="0" width="100%" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+<tbody>
+<tr>
+<td align="center" valign="top">
+<table class="em_main_table" border="0" width="600" cellspacing="0" cellpadding="0" align="center" valign="top">
+<tbody>
+<tr>
+<td class="em_aside15" align="center" valign="top">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td style="width: 600px; padding: 25px 0px 0px;" align="center" valign="top" class="em_full_img em_pbottom">
+<a href="https://www.edweek.org/teaching-learning/opinion-you-work-for-us-how-a-students-slight-captures-the-disrespect-teachers-face/2023/11?utm_source=nl&utm_medium=eml&utm_campaign=eu&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}&T={{templateId}}">
+<img style="width: 600px; display: block;" src="https://uploads.goodbits.io/uploads/content_block/thumbnail/894635/4ce92dc9-ad0a-4a3a-bea3-eef4aac67ba2.jpg" alt="Newsletter image" width="600" height="300" border="0">
+</a>
+</td>
+</tr>
+<tr>
+<td style="padding: 14px 0px 10px;" align="left" valign="top">
+<div style="font-size: 28px; line-height: 30px; word-break: break-word; padding-bottom: 5px;"><a style="font-family: Rockwell, serif; font-weight: 700; color: #000000; text-decoration: none;" href="https://www.edweek.org/teaching-learning/opinion-you-work-for-us-how-a-students-slight-captures-the-disrespect-teachers-face/2023/11?utm_source=nl&utm_medium=eml&utm_campaign=eu&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}&T={{templateId}}">'You Work for Us': How a Student's Slight Captures the Disrespect Teachers Face (Opinion)</a></div>
+<div style="font-family: Arial, sans-serif; font-size: 15px; line-height: 21px;"><div>Compare the treatment of teachers with other public servants and you’ll notice a disturbing trend.</div></div>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://www.edweek.org/teaching-learning/opinion-you-work-for-us-how-a-students-slight-captures-the-disrespect-teachers-face/2023/11?utm_source=nl&utm_medium=eml&utm_campaign=eu&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}&T={{templateId}}" style="display: inline-block; color: #000000; font-family: Arial, sans-serif; font-size: 10px; font-weight: bold; background-color: #ebeff0; text-align: center; text-decoration: none; border: 12px solid #ebeff0;">READ MORE</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--lead-article-->
+      <table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody> 
+<tr> 
+<td style="padding: 25px 0px 5px;" align="center" valign="top"> 
+<table class="em_main_table" style="width: 600px; table-layout: fixed;" border="0" width="600" cellspacing="0" cellpadding="0" align="center"> 
+<tbody> 
+<tr> 
+<td class="em_aside15" style="padding: 0px;" align="center" valign="top"> 
+<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center"> 
+<tbody> 
+<tr> 
+<td style="height: 1px; line-height: 0px; font-size: 0px;" bgcolor="#e0e5e6" height="1"> 
+<img style="display: block;" src="https://uploads.goodbits.io/uploads/static_image/image/133/spacer.gif" width="1" height="1" border="0"> </td> 
+</tr> 
+<tr> 
+<td class="em_p4" style="padding: 15px;" align="center" valign="top"> <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center"> <tbody> 
+<tr> 
+<td style="font-family: Arial, sans-serif; font-size: 9px; line-height: 15px; color: #808080; padding-bottom: 10px;" align="center" valign="top"> ADVERTISEMENT </td> 
+</tr> 
+<tr> 
+<td align="center" valign="top"> 
+<table class="em_wrapper" style="width: 575px;" border="0" width="525" cellspacing="0" cellpadding="0" align="center"> 
+<tbody> 
+<tr> 
+<td valign="top"> 
+<table class="em_wrapper" style="width: 125px;" border="0" width="125" cellspacing="0" cellpadding="0" align="left"> 
+<tbody> 
+<tr> 
+<td align="center" valign="top"> <table style="width: 125px;" border="0" width="125" cellspacing="0" cellpadding="0" align="center"> 
+<tbody> 
+<tr> 
+<td class="em_pbottom" align="center" valign="top"> 
+<a href="https://goto.benchmarkeducation.com/acton/fs/blocks/showLandingPage/a/34723/p/p-05e5/t/page/fm/0?utm_source=online+ad&utm_medium=EdWeek+Update&utm_campaign=ACT+Now&utm_id=EU71AN&utm_term=Nov+14+2023"> 
+<img style="display: block; max-width: 125px;" src="https://uploads.goodbits.io/uploads/content_block/image/894636/33d5ad9f-f5cf-49d6-878b-36712b649b86.jpg" alt="Advertisement Image" width="125" height="125" border="0"> 
+</a> 
+</td> 
+</tr> </tbody> </table> 
+</td> </tr> </tbody> 
+</table> 
+<!-- [if gte mso 9]> </td> <td valign="top"> <![endif]--> 
+<table class="em_wrapper" style="width: 430px;" border="0" width="430" cellspacing="0" cellpadding="0" align="right"> 
+<tbody> <tr> 
+<td class="em_p" align="center" valign="top"> 
+<table border="0" width="100%" cellspacing="0" cellpadding="0"> <tbody> <tr> <td class="em_center" style="font-family: Arial, sans-serif; font-size: 15px; line-height: 20px; font-weight: bold; padding-bottom: 3px; padding-top: 10px;" align="left" valign="top"><strong>Close Reading Books Guide Students to Success</strong></td> </tr> <tr> 
+<td class="em_p em_center" style="font-family: Arial, sans-serif; font-size: 15px; line-height: 20px; padding-right: 20px;" align="left" valign="top"> <div>
+<em>ACT Now!</em> from Doug Fisher and Nancy Frey combines mini-lessons for Grades 3-8 with student books that develop annotation, collaborative conversations, and evidence-based responses. These unique resources are also available in Spanish for Grades 3-5, and in interactive e-book formats. <a href="https://goto.benchmarkeducation.com/acton/fs/blocks/showLandingPage/a/34723/p/p-05e5/t/page/fm/0?utm_source=online+ad&utm_medium=EdWeek+Update&utm_campaign=ACT+Now&utm_id=EU71AN&utm_term=Nov+14+2023"><strong>FREE Sampler</strong></a>
+</div> </td> </tr> </tbody> 
+</table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> <tr> <td style="height: 1px; line-height: 0px; font-size: 0px;" bgcolor="#e0e5e6" height="1"> <img style="display: block;" src="https://uploads.goodbits.io/uploads/static_image/image/133/spacer.gif" width="1" height="1" border="0"> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table>
+<!--article-->
+<table class="em_full_wrap" border="0" width="100%" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+<tbody>
+<tr>
+<td align="center" valign="top">
+<table class="em_main_table" border="0" width="600" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td class="em_aside15" align="center" valign="top">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td style="padding: 25px 0px 10px;" align="left" valign="top">
+<div style="font-size: 24px; line-height: 27px; word-break: break-word; padding: 0px 0px 5px;"><a style="font-family: Rockwell, serif; font-weight: 700; color: #000000; text-decoration: none;" href="https://www.edweek.org/artificial-intelligence-and-social-emotional-learning-are-on-a-collision-course/2023/11?utm_source=nl&utm_medium=eml&utm_campaign=eu&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}&T={{templateId}}">Artificial Intelligence and Social-Emotional Learning Are on a Collision Course</a></div>
+<div style="font-family: Arial, sans-serif; font-size: 15px; line-height: 21px;"><div>Artificial intelligence is poised to dramatically change how kids develop.</div></div>
+</td>
+</tr>
+<tr>
+<td style="padding-top: 0px;">
+<a href="https://www.edweek.org/artificial-intelligence-and-social-emotional-learning-are-on-a-collision-course/2023/11?utm_source=nl&utm_medium=eml&utm_campaign=eu&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}&T={{templateId}}" style="display: inline-block; color: #000000; font-family: Arial, sans-serif; font-size: 10px; font-weight: bold; background-color: #ebeff0; text-align: center; text-decoration: none; border: 12px solid #ebeff0;">READ MORE</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--article--><!--article-->
+<table class="em_full_wrap" border="0" width="100%" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+<tbody>
+<tr>
+<td align="center" valign="top">
+<table class="em_main_table" border="0" width="600" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td class="em_aside15" align="center" valign="top">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td style="padding: 25px 0px 10px;" align="left" valign="top">
+<div style="font-size: 24px; line-height: 27px; word-break: break-word; padding: 0px 0px 5px;"><a style="font-family: Rockwell, serif; font-weight: 700; color: #000000; text-decoration: none;" href="https://www.edweek.org/teaching-learning/6-components-of-effective-math-games/2023/11?utm_source=nl&utm_medium=eml&utm_campaign=eu&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}&T={{templateId}}">6 Components of Effective Math Games</a></div>
+<div style="font-family: Arial, sans-serif; font-size: 15px; line-height: 21px;"><div>New research identifies six factors in games that couple meaningful play with math practice.</div></div>
+</td>
+</tr>
+<tr>
+<td style="padding-top: 0px;">
+<a href="https://www.edweek.org/teaching-learning/6-components-of-effective-math-games/2023/11?utm_source=nl&utm_medium=eml&utm_campaign=eu&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}&T={{templateId}}" style="display: inline-block; color: #000000; font-family: Arial, sans-serif; font-size: 10px; font-weight: bold; background-color: #ebeff0; text-align: center; text-decoration: none; border: 12px solid #ebeff0;">READ MORE</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--article--><table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody> 
+<tr> 
+<td style="padding: 25px 0px 5px;" align="center" valign="top"> 
+<table class="em_main_table" style="width: 600px; table-layout: fixed;" border="0" width="600" cellspacing="0" cellpadding="0" align="center"> 
+<tbody> 
+<tr> 
+<td class="em_aside15" style="padding: 0px;" align="center" valign="top"> 
+<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center"> 
+<tbody> 
+<tr> 
+<td style="height: 1px; line-height: 0px; font-size: 0px;" bgcolor="#e0e5e6" height="1"> 
+<img style="display: block;" src="https://uploads.goodbits.io/uploads/static_image/image/133/spacer.gif" width="1" height="1" border="0"> </td> 
+</tr> 
+<tr> 
+<td class="em_p4" style="padding: 15px;" align="center" valign="top"> <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center"> <tbody> 
+<tr> 
+<td style="font-family: Arial, sans-serif; font-size: 9px; line-height: 15px; color: #808080; padding-bottom: 10px;" align="center" valign="top"> ADVERTISEMENT </td> 
+</tr> 
+<tr> 
+<td align="center" valign="top"> 
+<table class="em_wrapper" style="width: 575px;" border="0" width="525" cellspacing="0" cellpadding="0" align="center"> 
+<tbody> 
+<tr> 
+<td valign="top"> 
+<table class="em_wrapper" style="width: 125px;" border="0" width="125" cellspacing="0" cellpadding="0" align="left"> 
+<tbody> 
+<tr> 
+<td align="center" valign="top"> <table style="width: 125px;" border="0" width="125" cellspacing="0" cellpadding="0" align="center"> 
+<tbody> 
+<tr> 
+<td class="em_pbottom" align="center" valign="top"> 
+<a href="https://www.edweek.org/products/whitepaper/improving-learning-outcomes-through-effective-tutoring-practices"> 
+<img style="display: block; max-width: 125px;" src="https://uploads.goodbits.io/uploads/content_block/image/894639/8c64ca99-71a8-44e9-b67b-a2e3b95387d5.png" alt="Advertisement Image" width="125" height="125" border="0"> 
+</a> 
+</td> 
+</tr> </tbody> </table> 
+</td> </tr> </tbody> 
+</table> 
+<!-- [if gte mso 9]> </td> <td valign="top"> <![endif]--> 
+<table class="em_wrapper" style="width: 430px;" border="0" width="430" cellspacing="0" cellpadding="0" align="right"> 
+<tbody> <tr> 
+<td class="em_p" align="center" valign="top"> 
+<table border="0" width="100%" cellspacing="0" cellpadding="0"> <tbody> <tr> <td class="em_center" style="font-family: Arial, sans-serif; font-size: 15px; line-height: 20px; font-weight: bold; padding-bottom: 3px; padding-top: 10px;" align="left" valign="top"><strong>Improving Learning Outcomes Through Effective Tutoring Practices</strong></td> </tr> <tr> 
+<td class="em_p em_center" style="font-family: Arial, sans-serif; font-size: 15px; line-height: 20px; padding-right: 20px;" align="left" valign="top"> <div>This whitepaper introduces TutorMe’s research-backed, innovative RAISE Approach for facilitating effective tutoring. Enhance student-tutor connections, boost learning readiness, academic achievements, and teacher satisfaction. <a href="https://www.edweek.org/products/whitepaper/improving-learning-outcomes-through-effective-tutoring-practices"><strong>Download Whitepaper</strong></a>
+</div> </td> </tr> </tbody> 
+</table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> <tr> <td style="height: 1px; line-height: 0px; font-size: 0px;" bgcolor="#e0e5e6" height="1"> <img style="display: block;" src="https://uploads.goodbits.io/uploads/static_image/image/133/spacer.gif" width="1" height="1" border="0"> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table>
+<!--article-->
+<table class="em_full_wrap" border="0" width="100%" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+<tbody>
+<tr>
+<td align="center" valign="top">
+<table class="em_main_table" border="0" width="600" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td class="em_aside15" align="center" valign="top">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td style="padding: 25px 0px 10px;" align="left" valign="top">
+<div style="font-size: 24px; line-height: 27px; word-break: break-word; padding: 0px 0px 5px;"><a style="font-family: Rockwell, serif; font-weight: 700; color: #000000; text-decoration: none;" href="https://www.edweek.org/policy-politics/this-state-would-be-the-first-to-reject-federal-k-12-funds-but-its-far-from-a-given/2023/11?utm_source=nl&utm_medium=eml&utm_campaign=eu&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}&T={{templateId}}">What Happens When a State Rejects Federal K-12 Funding? Tennessee Could Soon Find Out</a></div>
+<div style="font-family: Arial, sans-serif; font-size: 15px; line-height: 21px;"><div>Tennessee lawmakers have established a task force to review federal education funding.</div></div>
+</td>
+</tr>
+<tr>
+<td style="padding-top: 0px;">
+<a href="https://www.edweek.org/policy-politics/this-state-would-be-the-first-to-reject-federal-k-12-funds-but-its-far-from-a-given/2023/11?utm_source=nl&utm_medium=eml&utm_campaign=eu&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}&T={{templateId}}" style="display: inline-block; color: #000000; font-family: Arial, sans-serif; font-size: 10px; font-weight: bold; background-color: #ebeff0; text-align: center; text-decoration: none; border: 12px solid #ebeff0;">READ MORE</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--article--><!--article-->
+<table class="em_full_wrap" border="0" width="100%" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+<tbody>
+<tr>
+<td align="center" valign="top">
+<table class="em_main_table" border="0" width="600" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td class="em_aside15" align="center" valign="top">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td style="padding: 25px 0px 10px;" align="left" valign="top">
+<div style="font-size: 24px; line-height: 27px; word-break: break-word; padding: 0px 0px 5px;"><a style="font-family: Rockwell, serif; font-weight: 700; color: #000000; text-decoration: none;" href="https://www.edweek.org/policy-politics/will-the-government-actually-shut-down-this-time-what-educators-should-know/2023/11?utm_source=nl&utm_medium=eml&utm_campaign=eu&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}&T={{templateId}}">Will the Government Actually Shut Down This Time? What Educators Should Know</a></div>
+<div style="font-family: Arial, sans-serif; font-size: 15px; line-height: 21px;"><div>The federal government is once again on the verge of shutting down. Here's why educators should care, but shouldn't necessarily worry.</div></div>
+</td>
+</tr>
+<tr>
+<td style="padding-top: 0px;">
+<a href="https://www.edweek.org/policy-politics/will-the-government-actually-shut-down-this-time-what-educators-should-know/2023/11?utm_source=nl&utm_medium=eml&utm_campaign=eu&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}&T={{templateId}}" style="display: inline-block; color: #000000; font-family: Arial, sans-serif; font-size: 10px; font-weight: bold; background-color: #ebeff0; text-align: center; text-decoration: none; border: 12px solid #ebeff0;">READ MORE</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--article--><table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody> 
+<tr> 
+<td style="padding: 25px 0px 5px;" align="center" valign="top"> 
+<table class="em_main_table" style="width: 600px; table-layout: fixed;" border="0" width="600" cellspacing="0" cellpadding="0" align="center"> 
+<tbody> 
+<tr> 
+<td class="em_aside15" style="padding: 0px;" align="center" valign="top"> 
+<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center"> 
+<tbody> 
+<tr> 
+<td style="height: 1px; line-height: 0px; font-size: 0px;" bgcolor="#e0e5e6" height="1"> 
+<img style="display: block;" src="https://uploads.goodbits.io/uploads/static_image/image/133/spacer.gif" width="1" height="1" border="0"> </td> 
+</tr> 
+<tr> 
+<td class="em_p4" style="padding: 15px;" align="center" valign="top"> <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center"> <tbody> 
+<tr> 
+<td style="font-family: Arial, sans-serif; font-size: 9px; line-height: 15px; color: #808080; padding-bottom: 10px;" align="center" valign="top"> ADVERTISEMENT </td> 
+</tr> 
+<tr> 
+<td align="center" valign="top"> 
+<table class="em_wrapper" style="width: 575px;" border="0" width="525" cellspacing="0" cellpadding="0" align="center"> 
+<tbody> 
+<tr> 
+<td valign="top"> 
+<table class="em_wrapper" style="width: 125px;" border="0" width="125" cellspacing="0" cellpadding="0" align="left"> 
+<tbody> 
+<tr> 
+<td align="center" valign="top"> <table style="width: 125px;" border="0" width="125" cellspacing="0" cellpadding="0" align="center"> 
+<tbody> 
+<tr> 
+<td class="em_pbottom" align="center" valign="top"> 
+<a href="https://www.edweek.org/products/whitepaper/improve-math-performance-for-students-with-learning-difficulties"> 
+<img style="display: block; max-width: 125px;" src="https://uploads.goodbits.io/uploads/content_block/image/894642/593d3df9-73e8-4dff-8367-a028e797f058.png" alt="Advertisement Image" width="125" height="125" border="0"> 
+</a> 
+</td> 
+</tr> </tbody> </table> 
+</td> </tr> </tbody> 
+</table> 
+<!-- [if gte mso 9]> </td> <td valign="top"> <![endif]--> 
+<table class="em_wrapper" style="width: 430px;" border="0" width="430" cellspacing="0" cellpadding="0" align="right"> 
+<tbody> <tr> 
+<td class="em_p" align="center" valign="top"> 
+<table border="0" width="100%" cellspacing="0" cellpadding="0"> <tbody> <tr> <td class="em_center" style="font-family: Arial, sans-serif; font-size: 15px; line-height: 20px; font-weight: bold; padding-bottom: 3px; padding-top: 10px;" align="left" valign="top"><strong>Improve Math Performance for Students with Learning Difficulties</strong></td> </tr> <tr> 
+<td class="em_p em_center" style="font-family: Arial, sans-serif; font-size: 15px; line-height: 20px; padding-right: 20px;" align="left" valign="top"> <div>Explore why students struggle with math, evidence-based practices to address this, and much more in our free white paper. <a href="https://www.edweek.org/products/whitepaper/improve-math-performance-for-students-with-learning-difficulties"><strong>Download Whitepaper</strong></a>
+</div> </td> </tr> </tbody> 
+</table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> <tr> <td style="height: 1px; line-height: 0px; font-size: 0px;" bgcolor="#e0e5e6" height="1"> <img style="display: block;" src="https://uploads.goodbits.io/uploads/static_image/image/133/spacer.gif" width="1" height="1" border="0"> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="em_full_wrap" bgcolor="#ffffff">
+ <tr>
+ <td align="center" valign="top">
+ <table align="center" width="600" border="0" cellspacing="0" cellpadding="0" class="em_main_table" style="width: 600px; table-layout: fixed;">
+ <tr>
+ <td align="left" valign="top">
+ <ul style="margin: 0; padding: 20px;">
+<li style="font-family: Rockwell, serif; font-weight: 700; color: #000000;"><div style="font-size: 24px; line-height: 27px; margin: 15px 20px 22px 0px;">When Should School Leaders Address Controversies Like the Israel-Hamas War? (Opinion) <a style="font-family: Arial, san-serif; font-weight: normal;" href="https://www.edweek.org/policy-politics/opinion-when-should-school-leaders-address-controversies-like-the-israel-hamas-war/2023/11?utm_source=nl&utm_medium=eml&utm_campaign=eu&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}&T={{templateId}}" target="_blank" rel="noopener">Read more→</a>
+</div></li>
+<li style="font-family: Rockwell, serif; font-weight: 700; color: #000000;"><div style="font-size: 24px; line-height: 27px; margin: 35px 20px 22px 0px;">How to Support Students Afflicted by Trauma (Opinion) <a style="font-family: Arial, san-serif; font-weight: normal;" href="https://www.edweek.org/teaching-learning/opinion-how-to-support-students-afflicted-by-trauma/2023/11?utm_source=nl&utm_medium=eml&utm_campaign=eu&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}&T={{templateId}}" target="_blank" rel="noopener">Read more→</a>
+</div></li>
+<li style="font-family: Rockwell, serif; font-weight: 700; color: #000000;"><div style="font-size: 24px; line-height: 27px; margin: 35px 20px 22px 0px;">10 Buzzwords Teachers Can't Stand <a style="font-family: Arial, san-serif; font-weight: normal;" href="https://www.edweek.org/teaching-learning/10-buzzwords-teachers-cant-stand/2023/11?utm_source=nl&utm_medium=eml&utm_campaign=eu&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}&T={{templateId}}" target="_blank" rel="noopener">Read more→</a>
+</div></li>
+<li style="font-family: Rockwell, serif; font-weight: 700; color: #000000;"><div style="font-size: 24px; line-height: 27px; margin: 35px 20px 22px 0px;">What Happens When Educators Win School Board Seats, According to New Research <a style="font-family: Arial, san-serif; font-weight: normal;" href="https://www.edweek.org/leadership/what-happens-when-educators-win-school-board-seats-according-to-new-research/2023/11?utm_source=nl&utm_medium=eml&utm_campaign=eu&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}&T={{templateId}}" target="_blank" rel="noopener">Read more→</a>
+</div></li>
 </ul>
-<!-- Horizontal Nav End -->
-    </div>
-    
-    <div class="row" id="Experience">
-        
-        <div class="col">
-        <!--Experience section header goes here-->
-            <a name="experience"></a><h3>Experience</h3>
-    <hr width="100%" 
-        size="3" 
-        align="left"> 
-                
-        </div>
-    </div>
-    
-    <div class="row" id="exprow">
-        
-        <div class="col-sm-3" id="tjexp">
-        <!--Experience title, company, dates goes here--> 
-            <h4>Crew Member</h4><br>
-            <em><h5>Trader Joe's</h5></em><br>
-            <h6>July 2023 - Present</h6>
-        </div>
-    
-        <div class="col-sm-9">
-        <!--Experience description goes here--> I work to provide a warm and welcoming environment for customers, as well as performing a variety of tasks throughout the day to keep store operations running smoothly. Such tasks include (but are not limited to) running the cash register, stocking shelves, and creating eye-catching displays.
-        </div>
-        
-        <div class="col-sm-3">
-        <!--Experience title, company, dates goes here--> 
-            <strong><h4>Desk Attendant</h4></strong><br>
-            <em><h5>Montgomery Village Pools</h5></em><br>
-            <h6>July 2023 - Present</h6>
-        </div>
-    
-        <div class="col-sm-9">
-        <!--Experience description goes here--> I managed the front desk operations, ensuring that all inquiries were addressed in a timely and efficient manner; checked identification of patrons wanting to enter the restricted pool area; and resolved questions or concerns from patrons (by answering questions related to pool membership or providing other resources).
-        </div>
-        
-    </div><br>
-    
-    <div class="row" id="Education">
-        
-        <div class="col">
-        <a name="education"></a>
-        <!--Education-->
-            <h3>Education</h3>
-        <hr width="100%" 
-        size="3" 
-        align="left"> 
-        </div>
-        
-    </div>
-    
-    <div class="row">
-        
-        <div class="col" id="umdcol">
-        <!--Education goes here--><strong><h4>Bachelor of Arts, Journalism</h4></strong><br>
-        <h5><em>University of Maryland, 2024 (expected)</em></h5>
-        </div>
-        
-    <div class="row">
-        
-        <div class="col" id="mococol">
-            <strong><h4>Associate of Arts, General Studies</h4></strong><br>
-            <em><h5>Montgomery College, 2021</h5></em>
-        </div> 
-        
-    </div>
-        
-    </div><br>
-    
-    <div class="row" id="Skills">
-        <div class="col">
-            <!--Skills--><a name="skills"></a>
-            <h3>Skills</h3>
-            <hr width="100%" 
-                size="3" 
-                align="left"> 
-        </div>
-    </div>
-    
-    <div class="row" id="skillrow">
-    <ul>
-        <li><div class="col-sm-6">
-        <!--Skills here--><strong>Photo Editing:</strong>Proficient in Adobe Photoshop
-        </div></li>
-        
-        <li><div class="col-sm-6">
-        <!--Skills here--><strong>Video Editing:</strong>Proficient in Adobe Premiere Pro
-        </div></li>
-        
-        <li><div class="col-sm-6">
-        <!--Skills here--><strong>Journalistic Writing:</strong> Proficient in AP Style, copy editing
-        </div></li>
-        
-        <li><div class="col-sm-6">
-        <!--Skills here--><strong>Eagle Scout:</strong> Proficient in knots, first aid, orienteering
-        </div></li>
-        
-        <li><div class="col-sm-6">
-        <!--Skills here--><strong>Multilingual:</strong> Conversational knowledge in French, Tagalog
-        </div></li>
-    </ul>
-    </div>
-    
-</div>
-    
-<div class="container-fluid" id="footer">
-    <div class="row">
-        <div class="col">
-            <!--Footer info here--> <em>Copyright 2023 | Matthew Watson</em>
-        </div>
-        
-    </div>
-</div>
-    
+ </td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="em_full_wrap" bgcolor="#ffffff">
+ <tr>
+ <td align="center" valign="top"><table align="center" width="600" border="0" cellspacing="0" cellpadding="0" class="em_main_table" style="width: 600px; table-layout: fixed;">
+ <tr>
+ <td align="center" valign="top" style="padding: 25px 0px;" class="em_aside15"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+ <tr>
+ <td align="left" valign="top" style="font-family: Rockwell, serif; font-size: 15px; line-height: 21px; padding-top: 10px;">{{{ snippet "persoanlized_newsletter_signup_inline_ad" }}}
+</td>
+ </tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+ <tr>
+ <td>
+<table align="center" width="600" border="0" cellspacing="0" cellpadding="0" class="em_main_table" style="width: 600px; table-layout: fixed;">
+ <tr>
+<td align="center" valign="top" style="padding: 0px;" class="em_aside15">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+ <tr>
+ <td align="center" valign="top">
+ <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+ <tr>
+<td align="center" valign="top" style="font-family: Arial,sans-serif; font-size: 15px; line-height: 18px; color: #000000; padding-top: 25px;"><div>MOST POPULAR STORIES</div></td>
+ </tr>
+ </table>
+</td>
+ </tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="em_full_wrap" bgcolor="#ffffff">
+ <tr>
+ <td align="center" valign="top"><table align="center" width="600" border="0" cellspacing="0" cellpadding="0" class="em_main_table" style="width: 600px; table-layout: fixed;">
+ <tr>
+ <td align="left" valign="top">
+ <ol style="margin: 0;">
+<li><div style="font-size: 19px; line-height: 25px; margin: 25px 20px 20px 0px;"><a style="color: #000; text-decoration: none; font-family: Rockwell, serif; font-weight: 700;" href="https://www.edweek.org/leadership/students-grades-may-not-signal-actual-achievement-study-cautions/2023/11?utm_source=nl&utm_medium=eml&utm_campaign=eu&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}&T={{templateId}}" target="_blank" rel="noopener">Students' Grades May Not Signal Actual Achievement, Study Cautions</a></div></li>
+<li><div style="font-size: 19px; line-height: 25px; margin: 20px 20px 20px 0px;"><a style="color: #000; text-decoration: none; font-family: Rockwell, serif; font-weight: 700;" href="https://www.edweek.org/teaching-learning/science-of-reading-and-english-learner-advocates-reach-common-ground/2023/11?utm_source=nl&utm_medium=eml&utm_campaign=eu&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}&T={{templateId}}" target="_blank" rel="noopener">'Science of Reading' and English-Learner Advocates Reach Common Ground</a></div></li>
+<li><div style="font-size: 19px; line-height: 25px; margin: 20px 20px 20px 0px;"><a style="color: #000; text-decoration: none; font-family: Rockwell, serif; font-weight: 700;" href="https://www.edweek.org/teaching-learning/heres-what-students-miss-out-on-when-their-schools-lack-librarians/2023/11?utm_source=nl&utm_medium=eml&utm_campaign=eu&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}&T={{templateId}}" target="_blank" rel="noopener">Here's What Students Miss Out on When Their Schools Lack Librarians</a></div></li>
+<li><div style="font-size: 19px; line-height: 25px; margin: 20px 20px 20px 0px;"><a style="color: #000; text-decoration: none; font-family: Rockwell, serif; font-weight: 700;" href="https://www.edweek.org/policy-politics/liberals-win-hotly-contested-school-board-races-in-backlash-to-conservative-control/2023/11?utm_source=nl&utm_medium=eml&utm_campaign=eu&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}&T={{templateId}}" target="_blank" rel="noopener">Liberals Win Hotly Contested School Board Races in Backlash to Conservative Control</a></div></li>
+<li><div style="font-size: 19px; line-height: 25px; margin: 20px 20px 20px 0px;"><a style="color: #000; text-decoration: none; font-family: Rockwell, serif; font-weight: 700;" href="https://www.edweek.org/leadership/school-leaders-need-emotional-intelligence-heres-how-they-build-it/2023/11?utm_source=nl&utm_medium=eml&utm_campaign=eu&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}&T={{templateId}}" target="_blank" rel="noopener">School Leaders Need Emotional Intelligence. Here's How They Build It</a></div></li>
+</ol>
+ </td>
+</tr>
+</table></td>
+</tr>
+</table>  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+ <tr>
+ <td valign="top" style="padding: 0px;">
+<table align="center" width="600" border="0" cellspacing="0" cellpadding="0" class="em_main_table" style="width: 600px; table-layout: fixed;">
+ <tr>
+ <td align="center" valign="top" style="padding: 0px;" class="em_aside15">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+ <tr>
+ <td align="center" valign="top" style="padding: 0px;"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+ <tr>
+<td align="center" valign="top" style="font-family: Rockwell, serif; font-size: 17px; line-height: 23px; color: #00acd8; padding-bottom: 15px; padding-top: 25px; font-weight: 700;">EdWeek Top School Jobs</td>
+ </tr>
+ </table></td>
+ </tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table> <table style="border-spacing: 0; text-align: center; color: #00acd8; margin: 10px auto;" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td width="600">
+<table style="border-spacing: 0; margin: 0 auto;">
+<tbody>
+<tr>
+<td style="font-family: Arial, sans-serif; font-size: 15px; line-height: 21px; font-weight: 700;"><a style="color: #00acd8;" href="https://www.topschooljobs.org/jobs/teaching/#browsing?utm_source=nl&utm_medium=eml&utm_campaign=eu&M=&UUID=&T=">View <nobr>Teacher</nobr> Jobs</a></td>
+<td> </td>
+<td>🏫</td>
+<td> </td>
+<td style="font-family: Arial, sans-serif; font-size: 15px; line-height: 21px; font-weight: 700;"><a style="color: #00acd8;" href="https://www.topschooljobs.org/jobs/special-education-teacher/?utm_source=nl&utm_medium=eml&utm_campaign=eu&M=&UUID=&T=">View <nobr>Spec. Ed.</nobr> Jobs</a></td>
+<td> </td>
+<td>🏫</td>
+<td> </td>
+<td style="font-family: Arial, sans-serif; font-size: 15px; line-height: 21px; font-weight: 700;"><a style="color: #00acd8;" href="https://www.topschooljobs.org/jobs/principal/#browsing?utm_source=nl&utm_medium=eml&utm_campaign=eu&M=&UUID=&T=">View <nobr>Principal</nobr> Jobs</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="em_full_wrap" bgcolor="#ffffff">
+ <tr>
+ <td align="center" valign="top">
+<table align="center" width="600" border="0" cellspacing="0" cellpadding="0" class="em_main_table" style="width: 600px; table-layout: fixed;">
+ <tr>
+ <td align="center" valign="top" style="padding: 10px 0px;" class="em_aside15">
+ <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+ <tr>
+ <td align="left" valign="top" style="font-family: Arial, sans-serif; font-size: 15px; line-height: 23px;">
+ <ul style="margin: 0;">
+ <li>
+<a href="https://www.topschooljobs.org/job/1868602/high-school-principal/?utm_source=nl&utm_medium=eml&utm_campaign=eu&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}&T={{templateId}}" style="color: #00acd8; text-decoration: none;" target="_blank" rel="noopener">High School Principal</a>
+ <br>Hastings On Hudson, New York</li>
+  <li>
+<a href="https://www.topschooljobs.org/job/1861941/speech-language-pathologist-early-intervention-early-childhood-special-education?utm_source=nl&utm_medium=eml&utm_campaign=eu&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}&T={{templateId}}" style="color: #00acd8; text-decoration: none;" target="_blank" rel="noopener">Speech-Language Pathologist - Early Intervention/ Early Childhood Special Education</a>
+ <br>Clackamas, Oregon</li>
+  <li>
+<a href="https://www.topschooljobs.org/job/1754589/curriculum-developer-english-language-arts?utm_source=nl&utm_medium=eml&utm_campaign=eu&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}&T={{templateId}}" style="color: #00acd8; text-decoration: none;" target="_blank" rel="noopener">Curriculum Developer, English Language Arts</a>
+ <br>Working from home</li>
+ </ul>
+</td>
+   </tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="em_full_wrap" bgcolor="#ffffff">
+ <tr>
+ <td align="center" valign="top"><table align="center" width="600" border="0" cellspacing="0" cellpadding="0" class="em_main_table" style="width: 600px; table-layout: fixed;">
+ <tr>
+ <td align="center" valign="top" style="padding: 15px 0px 0px;" class="em_aside15"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+ <tr class="tsj-section">
+ <td align="left" valign="top" style="font-family: Arial, sans-serif; font-size: 15px; line-height: 21px;">Recruit principals, district leaders and teachers. <a href="https://recruiters.topschooljobs.org/?utm_source=nl&utm_medium=eml&utm_campaign=eu&M=&UUID=&T=" style="color: #00acd8;" target="_blank" rel="noopener">Post your job openings today</a>.</td>
+   </tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="em_full_wrap" bgcolor="#ffffff">
+ <tr>
+ <td align="center" valign="top"><table align="center" width="600" border="0" cellspacing="0" cellpadding="0" class="em_main_table" style="width: 600px; table-layout: fixed;">
+ <tr>
+ <td align="center" valign="top" style="padding: 25px 0px;" class="em_aside15"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+ <tr>
+ <td align="left" valign="top" style="font-family: Rockwell, serif; font-size: 15px; line-height: 21px; padding-top: 10px;">{{#ifContainsStr LyticsAudiences "gosownersandusersactiveorpastdue"}}    <h3>Like what you're reading?</h3>Get the most out of your organization-wide access and <a style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box;" href="https://www.edweek.org/my-profile?tab=preferences&email=%%to_email%%?utm_source=nl&utm_medium=eml&utm_campaign=eu&utm_content=dynamic&link=GOS&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}" target="_blank" rel="noopener">sign up for more free newsletters</a>: Teacher Update, The Savvy Principal, The Top 7, and more. {{else}} {{#ifContainsStr LyticsAudiences "pelcro_subscribers_active_past_due_print_and_digital_individual_all"}}    <h3>Read more when you sign in!</h3>As a subscriber, you may read all of these great articles. <a style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box;" href="http://www.edweek.org/?view=login&utm_source=nl&utm_medium=eml&utm_campaign=eu&utm_content=dynamic&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}" target="_blank" rel="noopener">Sign in</a> for easy access. <a style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box;" href="https://www.edweek.org/group-subscriptions/?utm_source=nl&utm_medium=eml&utm_campaign=eu&utm_content=dynamic&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}" target="_blank" rel="noopener">Find out how your entire organization</a> can benefit from access to Education Week. {{else}} <h3>Read more when you subscribe!</h3>You may read limited stories for free. <a style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box;" href="https://www.edweek.org/products/subscriptions?utm_source=nl&utm_medium=eml&utm_campaign=eu&utm_content=dynamic&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}" target="_blank" rel="noopener">Subscribe now</a> to access every article. <a style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box;" href="https://www.edweek.org/group-subscriptions/?utm_source=nl&utm_medium=eml&utm_campaign=eu&utm_content=dynamic&M={{campaignId}}&UUID={{#md5}}{{email}}{{/md5}}" target="_blank" rel="noopener">Find out how your entire organization</a> can benefit from access to Education Week. {{/ifContainsStr}} {{/ifContainsStr}}
+</td>
+ </tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
 </body>
-    
 </html>
+
+      
