@@ -1,0 +1,51 @@
+@media {
+img {
+    width:100%;
+}
+
+#topper {
+    height:700px;
+    background-image: url(03travel-sweden-01-01-tmkh-articleLarge.jpg);
+    background-size: cover;
+    background-position: 30% 80%;
+    
+}
+
+#content {
+    width:100%;
+    margin:auto;
+}
+
+.red {
+    color:red;
+}
+    
+    h1 {
+        font-size:100px;
+    }
+}
+
+@media (min-width:576px) {
+    
+    #content {
+    width:90%;
+}
+    
+    h1 {
+        font-size:80px;
+    }
+    
+    
+}
+
+@media (min-width:992px) {
+    
+    #content {
+    width:60%;
+}
+    
+    h1 {
+        font-size:60px;
+    }
+    
+}
