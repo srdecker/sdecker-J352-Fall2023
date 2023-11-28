@@ -1,0 +1,37 @@
+/*This is your CSS file.*/
+@media{ 
+
+body{
+    font-family: Georgia, serif;
+}
+#article{
+    width: 70%;
+    margin:auto;
+}
+h1{
+font-size: 50px;
+}
+#date{
+    color: gray;
+    font-size: 12px;
+}
+#byline{
+    font-weight: bold;
+}
+img{
+    width:100%;
+}
+#footer{
+    width:100%;
+    background-color: black;
+    color:white;
+    position:sticky;
+    float: left;
+}
+}
+
+@media (min-width: 576px){
+    h1{
+    font-size: 80px;
+    }
+}
