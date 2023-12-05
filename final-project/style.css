@@ -1,14 +1,27 @@
 @media {
+
+body {
+    font-family: 'Cardo', serif;
+
+    }
+    
 img {
     width:100%;
 }
+    
+    a {
+    color:#943a20;
+    }
+    
+        a:hover {
+    color:#943a20;
+    }
 
 #topper {
-    height:700px;
+    height:900px;
     background-image: url(03travel-sweden-01-01-tmkh-articleLarge.jpg);
-    background-size: cover;
-    background-position: 30% 80%;
-    
+    background-size:cover;
+    background-position: 10% 30%;    
 }
 
 #content {
@@ -16,12 +29,41 @@ img {
     margin:auto;
 }
 
-.red {
-    color:red;
+.credit {
+    color:#943a20;
+    font-family:'Didact Gothic', sans-serif;
+    text-transform:uppercase;
+
 }
     
-    h1 {
-        font-size:100px;
+.caption {
+    padding:5px 0px 0px 0px;
+    font-size:12px;
+    }
+    
+.byline {
+    }
+
+.date {
+        font-size:12px;
+        text-transform:uppercase;
+        color:#943a20;
+        font-family:'Didact Gothic', sans-serif;
+    }
+    
+h1 {
+    font-size:50px;
+    margin:300px 10px 10px 10px;
+    padding:20px 20px 20px 20px;
+    color: #FFFFFF;
+    background-color: rgba(148, 58, 32, 0.5);
+    text-align:center;
+    font-style: italic;
+    }
+    
+    h2 { 
+    font-size:25px;
+    padding:10px 0px 20px 0px;
     }
 }
 
@@ -31,21 +73,22 @@ img {
     width:90%;
 }
     
-    h1 {
-        font-size:80px;
+h1 {
+    font-size:60px;
+    margin:350px 10px 10px 10px;
     }
-    
     
 }
 
 @media (min-width:992px) {
     
-    #content {
+#content {
     width:60%;
 }
     
-    h1 {
-        font-size:60px;
+h1 {
+    font-size:70px;
+    margin:300px 30% 0px 30%;
     }
     
 }
