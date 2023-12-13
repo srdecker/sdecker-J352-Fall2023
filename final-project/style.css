@@ -9,6 +9,10 @@ img {
     width:100%;
 }
     
+    hr {
+        color:crimson;
+    }
+    
 a {
     color:#943a20;
     }
